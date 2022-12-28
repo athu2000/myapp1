@@ -1,6 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:myapp1/Stackdemo.dart';
+import 'package:myapp1/grid%20with%20count.dart';
+import 'package:myapp1/grid%20with%20custom.dart';
 import 'package:myapp1/login and validation.dart';
 
 import 'ListPage.dart';
@@ -23,9 +26,9 @@ class _SplashScreenState extends State {
   void initState() {
     super.initState();
 
-    Timer(const Duration(seconds: 1), () {
+    Timer(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => LoginForm()));
+          context, MaterialPageRoute(builder: (context) => Mystack()));
     });
   }
 
