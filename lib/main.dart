@@ -47,8 +47,8 @@ class _SplashScreenState extends State {
         ///set background color as gradient
         decoration: const BoxDecoration(
             gradient: LinearGradient(
-                begin: Alignment.bottomCenter,
-                end: Alignment.topCenter,
+                begin: Alignment.bottomRight,
+                end: Alignment.topLeft,
                 colors: [Colors.green, Colors.blue, Colors.yellow])),
         child: Center(
           child: Column(
